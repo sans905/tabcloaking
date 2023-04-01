@@ -1,1 +1,10 @@
-
+<html>
+    <input type="text" id="titleinput" placeholder="Enter title here">
+    <input type="button" onclick="setTitle()" value="set">
+    <script>
+        function setTitle() {
+        var titleinput = document.getElementById("titleinput").value;
+        document.title = titleinput;
+        }
+    </script>
+</html>
